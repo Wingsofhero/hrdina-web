@@ -10,3 +10,4 @@ pnpm-debug.log*
 tmp/
 
 .vercel
+lead-agent-v2/
