@@ -1,4 +1,6 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import aladivaPreview from './assets/work-aladiva.jpg';
+import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 
 const services = [
   {
@@ -98,6 +100,23 @@ const examples = [
   {
     title: 'Remeselník alebo servis',
     text: 'Ponuka prác, oblasti pôsobenia, ukážky realizácií a výrazné tlačidlo na zavolanie.',
+  },
+];
+
+const realWorks = [
+  {
+    title: 'Aladiva',
+    label: 'Beauty, health, travel',
+    text: 'Prezentačný web pre značku zameranú na krásu, zdravie a zážitky.',
+    url: 'https://www.aladiva.sk',
+    image: aladivaPreview,
+  },
+  {
+    title: 'Studio Lucia Modra',
+    label: 'Kozmetický salón',
+    text: 'Elegantný web pre lokálne štúdio krásy so službami, cenníkom a rezerváciou termínu.',
+    url: 'https://www.studioluciamodra.sk',
+    image: studioLuciaPreview,
   },
 ];
 
@@ -241,6 +260,44 @@ function App() {
                 <p>{example.text}</p>
               </article>
             ))}
+          </div>
+          <div className="works-showcase" aria-labelledby="realizovane-weby-title">
+            <div className="section-heading works-heading">
+              <div className="section-kicker">Realizované weby</div>
+              <h2 id="realizovane-weby-title">Ukážky mojich prác</h2>
+              <p>
+                Toto sú reálne weby, ktoré si môžete otvoriť a pozrieť ako živé
+                referencie.
+              </p>
+            </div>
+            <div className="work-grid">
+              {realWorks.map((work) => (
+                <article className="work-card" key={work.title}>
+                  <a
+                    className="work-preview"
+                    href={work.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Otvoriť web ${work.title}`}
+                  >
+                    <img src={work.image} alt={`Náhľad webu ${work.title}`} />
+                  </a>
+                  <div className="work-content">
+                    <span>{work.label}</span>
+                    <h3>{work.title}</h3>
+                    <p>{work.text}</p>
+                    <a
+                      className="text-link"
+                      href={work.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Otvoriť web
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
