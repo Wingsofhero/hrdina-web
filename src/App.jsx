@@ -1,6 +1,8 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
+import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
+import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
 
 const services = [
   {
@@ -117,6 +119,20 @@ const realWorks = [
     text: 'Elegantný web pre lokálne štúdio krásy so službami, cenníkom a rezerváciou termínu.',
     url: 'https://www.studioluciamodra.sk',
     image: studioLuciaPreview,
+  },
+  {
+    title: 'Sťahovanie Galanta',
+    label: 'Sťahovanie a preprava',
+    text: 'Prehľadný web pre lokálnu sťahovaciu službu s jasnou ponukou, galériou a rýchlym kontaktom.',
+    url: 'https://www.stahovaniegalanta.sk/',
+    image: stahovanieGalantaPreview,
+  },
+  {
+    title: 'PiT-Terapy',
+    label: 'Terapia a cvičenie',
+    text: 'Moderná prezentačná stránka pre terapiu a regeneráciu s výrazným vizuálom a rezerváciou.',
+    url: 'https://www.pit-terapy.sk/',
+    image: pitTerapyPreview,
   },
 ];
 
