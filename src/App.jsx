@@ -167,8 +167,8 @@ function App() {
               <a className="button button-primary" href="#priklady">
                 Pozrieť príklady
               </a>
-              <a className="button button-secondary" href="tel:048070444">
-                Zavolať: 048 070 444
+              <a className="button button-secondary" href="tel:0948070444">
+                Zavolať: 0948 070 444
               </a>
             </div>
             <dl className="hero-facts" aria-label="Čo získate">
@@ -375,16 +375,16 @@ function App() {
               <span>Meno</span>
               Marián Hrdina
             </p>
-            <a href="tel:048070444">
+            <a href="tel:0948070444">
               <span>Telefón</span>
-              048 070 444
+              0948 070 444
             </a>
             <a href="mailto:infoherowings@gmail.com">
               <span>E-mail</span>
               infoherowings@gmail.com
             </a>
             <div className="contact-actions">
-              <a className="button button-primary" href="tel:048070444">
+              <a className="button button-primary" href="tel:0948070444">
                 Zavolať
               </a>
               <a className="button button-secondary" href="mailto:infoherowings@gmail.com">
