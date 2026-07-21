@@ -1,5 +1,6 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
+import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
@@ -133,6 +134,13 @@ const realWorks = [
     text: 'Moderná prezentačná stránka pre terapiu a regeneráciu s výrazným vizuálom a rezerváciou.',
     url: 'https://www.pit-terapy.sk/',
     image: pitTerapyPreview,
+  },
+  {
+    title: 'Modrá Gorgona',
+    label: 'Street food & pub',
+    text: 'Výrazný web pre pub a street food prevádzku s menu, víkendovou ponukou a rezerváciou stola.',
+    url: 'https://www.modragorgona.site/',
+    image: modraGorgonaPreview,
   },
 ];
 
