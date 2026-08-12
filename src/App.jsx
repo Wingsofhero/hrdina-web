@@ -2,8 +2,10 @@ import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
+import plechotruckPreview from './assets/work-plechotruck.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
+import velmaatPreview from './assets/work-velmaat.jpg';
 
 const services = [
   {
@@ -141,6 +143,20 @@ const realWorks = [
     text: 'Výrazný web pre pub a street food prevádzku s menu, víkendovou ponukou a rezerváciou stola.',
     url: 'https://www.modragorgona.site/',
     image: modraGorgonaPreview,
+  },
+  {
+    title: 'Plecho Truck',
+    label: 'Odvoz odpadu',
+    text: 'Dynamický web pre odvoz odpadu a kontajnerové služby s jasnou ponukou, cenou a objednávkou.',
+    url: 'https://www.plechotruck.sk/',
+    image: plechotruckPreview,
+  },
+  {
+    title: 'Velmaat',
+    label: 'Účtovníctvo',
+    text: 'Profesionálny web pre účtovnícke služby s dôrazom na dôveru, služby a nezáväznú konzultáciu.',
+    url: 'https://www.velmaat.sk/',
+    image: velmaatPreview,
   },
 ];
 
