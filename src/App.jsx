@@ -2,6 +2,7 @@ import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
+import plechodesignLakovnaPreview from './assets/work-plechodesign-lakovna.jpg';
 import plechotruckPreview from './assets/work-plechotruck.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
@@ -150,6 +151,13 @@ const realWorks = [
     text: 'Dynamický web pre odvoz odpadu a kontajnerové služby s jasnou ponukou, cenou a objednávkou.',
     url: 'https://www.plechotruck.sk/',
     image: plechotruckPreview,
+  },
+  {
+    title: 'PlechoDesign lakovňa',
+    label: 'Autolakovňa',
+    text: 'Prezentačný web pre autolakovňu s výrazným vizuálom, službami, realizáciami a rýchlym kontaktom.',
+    url: 'https://www.plechodesign-lakovna.sk/',
+    image: plechodesignLakovnaPreview,
   },
   {
     title: 'Velmaat',
