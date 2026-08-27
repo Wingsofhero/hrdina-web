@@ -1,5 +1,7 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import adisTattooPreview from './assets/work-adis-tattoo.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
+import krmivaJokiPreview from './assets/work-krmiva-joki.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import plechodesignLakovnaPreview from './assets/work-plechodesign-lakovna.jpg';
@@ -165,6 +167,20 @@ const realWorks = [
     text: 'Profesionálny web pre účtovnícke služby s dôrazom na dôveru, služby a nezáväznú konzultáciu.',
     url: 'https://www.velmaat.sk/',
     image: velmaatPreview,
+  },
+  {
+    title: 'Krmivá Joki',
+    label: 'Chovateľské potreby',
+    text: 'Prívetivý web pre lokálnu predajňu krmív a chovateľských potrieb s ponukou, kontaktom a hodnoteniami.',
+    url: 'https://www.krmivajoki.sk/',
+    image: krmivaJokiPreview,
+  },
+  {
+    title: 'Adis Tattoo Art',
+    label: 'Tattoo & piercing',
+    text: 'Výrazná stránka pre tattoo štúdio s galériou, službami a jednoduchou cestou k dohodnutiu termínu.',
+    url: 'https://www.adistattoo.sk/',
+    image: adisTattooPreview,
   },
 ];
 
