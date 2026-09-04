@@ -9,6 +9,7 @@ import plechotruckPreview from './assets/work-plechotruck.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
 import velmaatPreview from './assets/work-velmaat.jpg';
+import wandaGalanPreview from './assets/work-wanda-galan.jpg';
 
 const services = [
   {
@@ -181,6 +182,13 @@ const realWorks = [
     text: 'Výrazná stránka pre tattoo štúdio s galériou, službami a jednoduchou cestou k dohodnutiu termínu.',
     url: 'https://www.adistattoo.sk/',
     image: adisTattooPreview,
+  },
+  {
+    title: 'Wanda Galan',
+    label: 'Permanentný make-up',
+    text: 'Elegantný web pre štúdio permanentného make-upu s prémiovým vizuálom, službami a rezerváciou termínu.',
+    url: 'https://www.wandagalan.sk/',
+    image: wandaGalanPreview,
   },
 ];
 
@@ -358,6 +366,7 @@ function App() {
                     >
                       Otvoriť web
                     </a>
+                    <p className="work-credit">Vytvorené pomocou Hrdina Web</p>
                   </div>
                 </article>
               ))}

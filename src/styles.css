@@ -498,6 +498,16 @@ h3 {
   color: var(--gold);
 }
 
+.work-credit {
+  border-top: 1px solid var(--line);
+  margin-top: 8px;
+  padding-top: 12px;
+  color: #7d6b55;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
 .process {
   border-top: 1px solid var(--line);
 }
