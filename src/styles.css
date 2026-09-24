@@ -508,6 +508,12 @@ h3 {
   letter-spacing: 0;
 }
 
+.work-credit:hover,
+.work-credit:focus-visible {
+  color: var(--green-dark);
+  outline: none;
+}
+
 .process {
   border-top: 1px solid var(--line);
 }

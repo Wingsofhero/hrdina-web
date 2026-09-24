@@ -2,6 +2,7 @@ import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import adisTattooPreview from './assets/work-adis-tattoo.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
 import krmivaJokiPreview from './assets/work-krmiva-joki.jpg';
+import masazeUBeiPreview from './assets/work-masaze-u-bei.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import plechodesignLakovnaPreview from './assets/work-plechodesign-lakovna.jpg';
@@ -10,6 +11,7 @@ import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
 import velmaatPreview from './assets/work-velmaat.jpg';
 import wandaGalanPreview from './assets/work-wanda-galan.jpg';
+import zumpyPodpolaniePreview from './assets/work-zumpy-podpolanie.jpg';
 
 const services = [
   {
@@ -112,6 +114,8 @@ const examples = [
   },
 ];
 
+const hrdinaWebUrl = 'https://hrdina-web.vercel.app/';
+
 const realWorks = [
   {
     title: 'Aladiva',
@@ -189,6 +193,20 @@ const realWorks = [
     text: 'Elegantný web pre štúdio permanentného make-upu s prémiovým vizuálom, službami a rezerváciou termínu.',
     url: 'https://www.wandagalan.sk/',
     image: wandaGalanPreview,
+  },
+  {
+    title: 'Masáže u Bei',
+    label: 'Masáže a terapie',
+    text: 'Pokojný web pre masérske služby v Senci s ponukou terapií, cenníkom, recenziami a jednoduchým kontaktom.',
+    url: 'https://www.masazeubei.sk/',
+    image: masazeUBeiPreview,
+  },
+  {
+    title: 'Žumpy Podpoľanie',
+    label: 'Vývoz odpadových vôd',
+    text: 'Výrazná stránka pre vývoz žúmp a septikov v regióne Podpoľania s cenníkom, galériou a rýchlym telefonátom.',
+    url: 'https://www.zumpypodpolanie.sk/',
+    image: zumpyPodpolaniePreview,
   },
 ];
 
@@ -366,7 +384,15 @@ function App() {
                     >
                       Otvoriť web
                     </a>
-                    <p className="work-credit">Vytvorené pomocou Hrdina Web</p>
+                    <a
+                      className="work-credit"
+                      href={hrdinaWebUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Otvoriť stránku Hrdina Web v novej karte"
+                    >
+                      Vytvorené pomocou Hrdina Web
+                    </a>
                   </div>
                 </article>
               ))}
