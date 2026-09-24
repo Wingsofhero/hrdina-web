@@ -114,7 +114,7 @@ const examples = [
   },
 ];
 
-const hrdinaWebUrl = 'https://hrdina-web.vercel.app/';
+const hrdinaWebUrl = 'https://hrdinaweb.sk/';
 
 const realWorks = [
   {
