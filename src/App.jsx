@@ -4,9 +4,11 @@ import aladivaPreview from './assets/work-aladiva.jpg';
 import krmivaJokiPreview from './assets/work-krmiva-joki.jpg';
 import masazeUBeiPreview from './assets/work-masaze-u-bei.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
+import originalCarsPreview from './assets/work-original-cars.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import plechodesignLakovnaPreview from './assets/work-plechodesign-lakovna.jpg';
 import plechotruckPreview from './assets/work-plechotruck.jpg';
+import pneulobPreview from './assets/work-pneulob.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
 import velmaatPreview from './assets/work-velmaat.jpg';
@@ -207,6 +209,20 @@ const realWorks = [
     text: 'Výrazná stránka pre vývoz žúmp a septikov v regióne Podpoľania s cenníkom, galériou a rýchlym telefonátom.',
     url: 'https://www.zumpypodpolanie.sk/',
     image: zumpyPodpolaniePreview,
+  },
+  {
+    title: 'Original Cars',
+    label: 'Autoservis',
+    text: 'Moderný web pre autoservis v Partizánskom so službami, kontaktom, adresou a rýchlym telefonátom.',
+    url: 'https://www.originalcars.sk/',
+    image: originalCarsPreview,
+  },
+  {
+    title: 'Pneulob',
+    label: 'Pneuservis',
+    text: 'Prehľadná stránka pre pneuservis a predaj pneumatík s jasnou ponukou, kontaktom a lokálnymi informáciami.',
+    url: 'https://www.pneulob.sk/',
+    image: pneulobPreview,
   },
 ];
 
