@@ -11,6 +11,7 @@ import plechotruckPreview from './assets/work-plechotruck.jpg';
 import pneulobPreview from './assets/work-pneulob.jpg';
 import studioLuciaPreview from './assets/work-studio-lucia.jpg';
 import stahovanieGalantaPreview from './assets/work-stahovanie-galanta.jpg';
+import therapyCenterAlennPreview from './assets/work-therapy-center-alenn.jpg';
 import velmaatPreview from './assets/work-velmaat.jpg';
 import wandaGalanPreview from './assets/work-wanda-galan.jpg';
 import zumpyPodpolaniePreview from './assets/work-zumpy-podpolanie.jpg';
@@ -223,6 +224,13 @@ const realWorks = [
     text: 'Prehľadná stránka pre pneuservis a predaj pneumatík s jasnou ponukou, kontaktom a lokálnymi informáciami.',
     url: 'https://www.pneulob.sk/',
     image: pneulobPreview,
+  },
+  {
+    title: 'Therapy Center Alenn',
+    label: 'Terapie a regenerácia',
+    text: 'Pokojná prezentačná stránka pre terapeutické centrum so službami, kontaktom a jemnou atmosférou.',
+    url: 'https://www.therapycenteralenn.sk/',
+    image: therapyCenterAlennPreview,
   },
 ];
 
