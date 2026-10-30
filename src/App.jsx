@@ -1,8 +1,10 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import adisTattooPreview from './assets/work-adis-tattoo.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
+import autodankoPreview from './assets/work-autodanko.jpg';
 import krmivaJokiPreview from './assets/work-krmiva-joki.jpg';
 import masazeUBeiPreview from './assets/work-masaze-u-bei.jpg';
+import metodHudakPreview from './assets/work-metod-hudak.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import originalCarsPreview from './assets/work-original-cars.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
@@ -117,7 +119,7 @@ const examples = [
   },
 ];
 
-const hrdinaWebUrl = 'https://hrdinaweb.sk/';
+const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
   {
@@ -231,6 +233,20 @@ const realWorks = [
     text: 'Pokojná prezentačná stránka pre terapeutické centrum so službami, kontaktom a jemnou atmosférou.',
     url: 'https://www.therapycenteralenn.sk/',
     image: therapyCenterAlennPreview,
+  },
+  {
+    title: 'AUTODANKO',
+    label: 'Autoservis, lakovňa a karosáreň',
+    text: 'Web pre autoservis v Šuranoch s riešením poistných udalostí, prehľadom služieb a galériou opráv.',
+    url: 'https://www.autodanko.sk/',
+    image: autodankoPreview,
+  },
+  {
+    title: 'Metod Hudák',
+    label: 'Autoservis a pneuservis',
+    text: 'Prehľadný web pre autoservis a pneuservis v Novej Ľubovni so službami, galériou a rýchlym kontaktom.',
+    url: 'https://www.metodhudak.sk/',
+    image: metodHudakPreview,
   },
 ];
 
