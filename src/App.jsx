@@ -1,4 +1,6 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import bkProfilakPreview from './assets/work-bkprofilak.jpg';
+import azCarsPreview from './assets/work-az-cars.jpg';
 import adisTattooPreview from './assets/work-adis-tattoo.jpg';
 import aladivaPreview from './assets/work-aladiva.jpg';
 import autodankoPreview from './assets/work-autodanko.jpg';
@@ -122,6 +124,20 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'BK Profilak',
+    label: 'Autolakovňa a autoservis',
+    text: 'Prezentačný web pre autolakovňu a autoservis v Prakovciach s ponukou služieb, ukážkami prác a kontaktom.',
+    url: 'https://www.bkprofilak.sk/',
+    image: bkProfilakPreview,
+  },
+  {
+    title: 'AZ Cars Electronic',
+    label: 'Autoelektrika a chiptuning',
+    text: 'Web pre autoelektriku a chiptuning v Banskej Bystrici s prehľadom služieb, realizáciami a dohodnutím termínu.',
+    url: 'https://www.az-cars.sk/',
+    image: azCarsPreview,
+  },
   {
     title: 'Aladiva',
     label: 'Beauty, health, travel',
