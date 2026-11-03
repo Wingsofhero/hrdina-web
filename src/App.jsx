@@ -1,4 +1,5 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import sunflowerPreview from './assets/work-sunflower.jpg';
 import bkProfilakPreview from './assets/work-bkprofilak.jpg';
 import azCarsPreview from './assets/work-az-cars.jpg';
 import adisTattooPreview from './assets/work-adis-tattoo.jpg';
@@ -124,6 +125,13 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'Slnečnica',
+    label: 'Štúdio tvorivosti a zelene',
+    text: 'Web bratislavského štúdia s pozvánkami na tvorivé stretnutia a ponukou starostlivosti o firemnú zeleň.',
+    url: 'https://www.sunflower.sk/',
+    image: sunflowerPreview,
+  },
   {
     title: 'BK Profilak',
     label: 'Autolakovňa a autoservis',
