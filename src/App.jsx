@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import sunflowerPreview from './assets/work-sunflower.jpg';
 import bkProfilakPreview from './assets/work-bkprofilak.jpg';
@@ -545,6 +546,7 @@ function App() {
       <footer>
         © 2026 Hrdina Web. Webstránky pre malé slovenské podniky.
       </footer>
+      <Analytics />
     </>
   );
 }
