@@ -1,5 +1,8 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import sunflowerPreview from './assets/work-sunflower.jpg';
+import bocamsPreview from './assets/work-odtahovkaliptov.jpg';
+import vanRentPreview from './assets/work-vanrent.jpg';
+import richardCistiPreview from './assets/work-richardcisti.jpg';
 import bkProfilakPreview from './assets/work-bkprofilak.jpg';
 import azCarsPreview from './assets/work-az-cars.jpg';
 import adisTattooPreview from './assets/work-adis-tattoo.jpg';
@@ -125,6 +128,27 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'Bocams servis Liptov',
+    label: 'Odťah a služby na Liptove',
+    text: 'Web firmy z Nižnej Boce spája odťah vozidiel, prepravu materiálu, stavebné práce aj prenájom mobilnej sauny.',
+    url: 'https://www.odtahovkaliptov.eu/',
+    image: bocamsPreview,
+  },
+  {
+    title: 'VanRent.sk',
+    label: 'Prenájom dodávok',
+    text: 'Na webe požičovne v Prievidzi si zákazník porovná dodávky IVECO Daily podľa veľkosti nákladného priestoru, výbavy a ceny.',
+    url: 'https://www.vanrent.sk/',
+    image: vanRentPreview,
+  },
+  {
+    title: 'Richard Čistí',
+    label: 'Čistenie exteriérov',
+    text: 'Fotografie realizácií ukazujú výsledky čistenia fasád, dlažby, plotov a náhrobných kameňov. Zákazník môže požiadať o cenovú ponuku.',
+    url: 'https://www.richardcisti.sk/',
+    image: richardCistiPreview,
+  },
   {
     title: 'Slnečnica',
     label: 'Štúdio tvorivosti a zelene',
