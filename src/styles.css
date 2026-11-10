@@ -583,6 +583,9 @@ h3 {
 .pricing-offer p + h3 { margin-top: 24px; }
 .pricing-offer h3 a { color: var(--green); }
 
+.offer-includes { margin: 8px 0 0; padding-left: 1.2em; line-height: 1.6; }
+.offer-terms { grid-column: 1 / -1; }
+
 .offer-price {
   color: var(--green-dark);
   font: 2.6rem Georgia, serif;

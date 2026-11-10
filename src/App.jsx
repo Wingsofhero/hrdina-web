@@ -477,9 +477,19 @@ function App() {
             <div>
               <h3>Bežný prezentačný web</h3>
               <p className="offer-price">349 € <small>s DPH</small></p>
-              <p>Cena platí pre stránku bez zložitých formulárov, prepojení na ďalšie systémy či e-shopu.</p>
+              <p>Cena platí pre stránku bez zložitých funkcií.</p>
             </div>
             <div>
+              <h3>Čo máte v cene</h3>
+              <ul className="offer-includes">
+                <li>Akékoľvek grafické úpravy návrhu</li>
+                <li>Práca na ukážke, kým s ňou nebudete spokojní</li>
+                <li>Odkazy na Bookio a Notino</li>
+                <li>Fotogaléria</li>
+                <li>Klikateľný e-mail a telefónne číslo</li>
+              </ul>
+            </div>
+            <div className="offer-terms">
               <h3>Zľava 75 € pri dokončení do 7 dní<a href="#podmienky-zlavy" aria-label="Podmienky zľavy">*</a></h3>
               <p>Po zľave zaplatíte <strong>274 € s DPH.</strong></p>
               <h3>Úpravy po spustení</h3>
