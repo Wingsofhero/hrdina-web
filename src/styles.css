@@ -572,73 +572,31 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
-.pricing-card {
-  position: relative;
-  min-height: 410px;
-  padding: 25px;
-}
-
-.pricing-card.featured {
-  border-color: rgba(37, 91, 78, 0.5);
-  background: var(--surface);
-  box-shadow: var(--shadow);
-}
-
-.plan-badge {
-  display: inline-flex;
-  min-height: 28px;
-  align-items: center;
-  border-radius: 999px;
-  background: rgba(37, 91, 78, 0.1);
-  padding: 0 10px;
-  color: var(--green);
-  font-size: 0.74rem;
-  font-weight: 850;
-  text-transform: uppercase;
-}
-
-.pricing-card h3 {
-  margin-top: 18px;
-}
-
-.price {
-  margin-top: 15px;
-  color: var(--green-dark);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.35rem;
-}
-
-.plan-text {
-  min-height: 76px;
-  margin-top: 14px;
-  font-size: 0.94rem;
-}
-
-.pricing-card ul {
+.pricing-offer {
   display: grid;
-  gap: 10px;
-  margin-top: 20px;
-  padding: 0;
-  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 24px clamp(24px, 5vw, 60px);
+  padding: clamp(20px, 4vw, 42px);
 }
 
-.pricing-card li {
-  position: relative;
-  padding-left: 20px;
-  color: var(--muted);
+.pricing-offer h3 + p { margin-top: 8px; }
+.pricing-offer p + h3 { margin-top: 24px; }
+.pricing-offer h3 a { color: var(--green); }
+
+.offer-price {
+  color: var(--green-dark);
+  font: 2.6rem Georgia, serif;
+  margin-bottom: 10px;
+}
+
+.offer-price small { font-size: 1.1rem; }
+
+.offer-note {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
   font-size: 0.94rem;
-  line-height: 1.55;
-}
-
-.pricing-card li::before {
-  content: "";
-  position: absolute;
-  top: 0.62em;
-  left: 0;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--gold);
+  scroll-margin-top: 100px;
 }
 
 .contact {
@@ -869,9 +827,6 @@ footer {
     margin-top: 14px;
   }
 
-  .pricing-card {
-    min-height: auto;
-  }
 
   .plan-text {
     min-height: auto;

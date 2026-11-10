@@ -55,43 +55,6 @@ const audience = [
   'rodinné firmy',
 ];
 
-const packages = [
-  {
-    title: 'Jednoduchý štart',
-    price: 'od 150 €',
-    text: 'Pre prevádzku, ktorá potrebuje byť konečne dohľadateľná online.',
-    items: [
-      'jednostránkový web',
-      'služby, kontakt a otváracie hodiny',
-      'mobilná verzia',
-      'klikateľný telefón a e-mail',
-    ],
-  },
-  {
-    title: 'Web pre prevádzku',
-    price: 'od 200 €',
-    text: 'Najčastejšia voľba pre lokálny podnik s fotkami a mapou.',
-    featured: true,
-    items: [
-      'všetko zo základného balíka',
-      'fotogaléria alebo ponuka služieb',
-      'Google mapa a navigácia',
-      'pomoc s doménou a spustením',
-    ],
-  },
-  {
-    title: 'Web na mieru',
-    price: 'od 300 €',
-    text: 'Keď potrebujete viac obsahu alebo špecifické riešenie.',
-    items: [
-      'viac sekcií podľa potreby',
-      'individuálna štruktúra a úpravy',
-      'rozšírená prezentácia služieb',
-      'cena podľa rozsahu zadania',
-    ],
-  },
-];
-
 const process = [
   {
     number: '01',
@@ -506,29 +469,23 @@ function App() {
 
         <section className="pricing section-shell" id="cennik">
           <div className="section-heading">
-            <div className="section-kicker">Balíky</div>
-            <h2>Jednoduchý rozsah a jasná cena</h2>
-            <p>
-              Konkrétnu cenu potvrdíme podľa obsahu, ktorý potrebujete.
-            </p>
+            <div className="section-kicker">Cenník</div>
+            <h2>Koľko stojí web?</h2>
+            <p>Každý web riešim individuálne. Presnú cenu si dohodneme podľa rozsahu vašej stránky.</p>
           </div>
-          <div className="grid grid-three">
-            {packages.map((plan) => (
-              <article
-                className={`card pricing-card ${plan.featured ? 'featured' : ''}`}
-                key={plan.title}
-              >
-                {plan.featured && <span className="plan-badge">Najčastejšia voľba</span>}
-                <h3>{plan.title}</h3>
-                <p className="price">{plan.price}</p>
-                <p className="plan-text">{plan.text}</p>
-                <ul>
-                  {plan.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
+          <div className="card pricing-offer">
+            <div>
+              <h3>Bežný prezentačný web</h3>
+              <p className="offer-price">349 € <small>s DPH</small></p>
+              <p>Cena platí pre stránku bez zložitých formulárov, prepojení na ďalšie systémy či e-shopu.</p>
+            </div>
+            <div>
+              <h3>Zľava 75 € pri dokončení do 7 dní<a href="#podmienky-zlavy" aria-label="Podmienky zľavy">*</a></h3>
+              <p>Po zľave zaplatíte <strong>274 € s DPH.</strong></p>
+              <h3>Úpravy po spustení</h3>
+              <p>Prvé dva týždne po dokončení webu máte úpravy zdarma. Aj potom sú drobné úpravy bezplatné. Väčšie úpravy účtujem sadzbou 20 € za hodinu.</p>
+            </div>
+            <p className="offer-note" id="podmienky-zlavy">* Lehota 7 dní začína plynúť v momente, keď mi potvrdíte, že si web objednávate. Nárok na zľavu máte, ak je do konca tejto lehoty doména pripojená k hostingu, web je na nej verejne dostupný a faktúra je uhradená.</p>
           </div>
         </section>
 
