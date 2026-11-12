@@ -11,7 +11,6 @@ import autodankoPreview from './assets/work-autodanko.jpg';
 import krmivaJokiPreview from './assets/work-krmiva-joki.jpg';
 import masazeUBeiPreview from './assets/work-masaze-u-bei.jpg';
 import metodHudakPreview from './assets/work-metod-hudak.jpg';
-import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import originalCarsPreview from './assets/work-original-cars.jpg';
 import pitTerapyPreview from './assets/work-pit-terapy.jpg';
 import plechodesignLakovnaPreview from './assets/work-plechodesign-lakovna.jpg';
@@ -160,13 +159,6 @@ const realWorks = [
     text: 'Moderná prezentačná stránka pre terapiu a regeneráciu s výrazným vizuálom a rezerváciou.',
     url: 'https://www.pit-terapy.sk/',
     image: pitTerapyPreview,
-  },
-  {
-    title: 'Modrá Gorgona',
-    label: 'Street food & pub',
-    text: 'Výrazný web pre pub a street food prevádzku s menu, víkendovou ponukou a rezerváciou stola.',
-    url: 'https://www.modragorgona.site/',
-    image: modraGorgonaPreview,
   },
   {
     title: 'Plecho Truck',
