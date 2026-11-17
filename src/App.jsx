@@ -1,4 +1,5 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import emilyPreview from './assets/work-emily.jpg';
 import sunflowerPreview from './assets/work-sunflower.jpg';
 import bocamsPreview from './assets/work-odtahovkaliptov.jpg';
 import vanRentPreview from './assets/work-vanrent.jpg';
@@ -90,6 +91,13 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'Kozmetické štúdio Emily',
+    label: 'Kozmetické štúdio',
+    text: 'Web štúdia v Partizánskom s ponukou ošetrení, cenníkom a odkazom na rezerváciu termínu.',
+    url: 'https://www.emilykozmetickestudio.sk/',
+    image: emilyPreview,
+  },
   {
     title: 'Bocams servis Liptov',
     label: 'Odťah a služby na Liptove',
