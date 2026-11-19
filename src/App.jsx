@@ -1,4 +1,5 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import palmarPreview from './assets/work-cukraren-palmar.jpg';
 import emilyPreview from './assets/work-emily.jpg';
 import sunflowerPreview from './assets/work-sunflower.jpg';
 import bocamsPreview from './assets/work-odtahovkaliptov.jpg';
@@ -91,6 +92,13 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'Cukráreň Palmar',
+    label: 'Cukrárenská výroba',
+    text: 'Web cukrárne v Hermanovciach s ponukou tort, zákuskov a candy barov, fotogalériou a informáciami k objednávke.',
+    url: 'https://www.cukrarenpalmar.sk/',
+    image: palmarPreview,
+  },
   {
     title: 'Kozmetické štúdio Emily',
     label: 'Kozmetické štúdio',
