@@ -1,4 +1,7 @@
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
+import certPreview from './assets/work-cert-vykopove-prace.jpg';
+import skinRitualPreview from './assets/work-skin-ritual-by-valeri.jpg';
+import jukonPreview from './assets/work-jukon-servis.jpg';
 import palmarPreview from './assets/work-cukraren-palmar.jpg';
 import emilyPreview from './assets/work-emily.jpg';
 import sunflowerPreview from './assets/work-sunflower.jpg';
@@ -92,6 +95,27 @@ const examples = [
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
 const realWorks = [
+  {
+    title: 'ČERT – zemné a výkopové práce',
+    label: 'Zemné a výkopové práce',
+    text: 'Web firmy z Kamanovej s ponukou výkopových a búracích prác, prehľadom techniky a fotogalériou realizácií.',
+    url: 'https://www.certvykopoveprace.sk/',
+    image: certPreview,
+  },
+  {
+    title: 'Skin Ritual by Valeri',
+    label: 'Kozmetický salón',
+    text: 'Web salónu v Čadci s ponukou ošetrení, cenníkom, fotografiami salónu a rezerváciou termínu cez Notino.',
+    url: 'https://www.skinritualbyvaleri.sk/',
+    image: skinRitualPreview,
+  },
+  {
+    title: 'Autoservis JUKON',
+    label: 'Autoservis a pneuservis',
+    text: 'Web autoservisu v Košiciach-Krásnej s prehľadom služieb, cenníkom pneuservisu a emisných kontrol aj ukážkami prác z dielne.',
+    url: 'https://www.jukonservis.sk/',
+    image: jukonPreview,
+  },
   {
     title: 'Cukráreň Palmar',
     label: 'Cukrárenská výroba',
