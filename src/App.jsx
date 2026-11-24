@@ -1,3 +1,5 @@
+import obcerstveniePreview from './assets/work-rychle-obcerstvenie.jpg';
+import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
 import certPreview from './assets/work-cert-vykopove-prace.jpg';
 import skinRitualPreview from './assets/work-skin-ritual-by-valeri.jpg';
@@ -94,202 +96,270 @@ const examples = [
 
 const hrdinaWebUrl = 'https://www.hrdinaweb.sk/';
 
-const realWorks = [
+const workGroups = [
   {
-    title: 'ČERT – zemné a výkopové práce',
-    label: 'Zemné a výkopové práce',
-    text: 'Web firmy z Kamanovej s ponukou výkopových a búracích prác, prehľadom techniky a fotogalériou realizácií.',
-    url: 'https://www.certvykopoveprace.sk/',
-    image: certPreview,
+    id: 'autoservisy',
+    title: 'Autoservisy a autolakovne',
+    works: [
+      {
+        title: 'BK Profilak',
+        label: 'Autolakovňa a autoservis',
+        text: 'Prezentačný web pre autolakovňu a autoservis v Prakovciach s ponukou služieb, ukážkami prác a kontaktom.',
+        url: 'https://www.bkprofilak.sk/',
+        image: bkProfilakPreview,
+      },
+      {
+        title: 'AZ Cars Electronic',
+        label: 'Autoelektrika a chiptuning',
+        text: 'Web pre autoelektriku a chiptuning v Banskej Bystrici s prehľadom služieb, realizáciami a dohodnutím termínu.',
+        url: 'https://www.az-cars.sk/',
+        image: azCarsPreview,
+      },
+      {
+        title: 'Pneulob',
+        label: 'Pneuservis',
+        text: 'Prehľadná stránka pre pneuservis a predaj pneumatík s jasnou ponukou, kontaktom a lokálnymi informáciami.',
+        url: 'https://www.pneulob.sk/',
+        image: pneulobPreview,
+      },
+      {
+        title: 'Original Cars',
+        label: 'Autoservis',
+        text: 'Moderný web pre autoservis v Partizánskom so službami, kontaktom, adresou a rýchlym telefonátom.',
+        url: 'https://www.originalcars.sk/',
+        image: originalCarsPreview,
+      },
+      {
+        title: 'PlechoDesign lakovňa',
+        label: 'Autolakovňa',
+        text: 'Prezentačný web pre autolakovňu s výrazným vizuálom, službami, realizáciami a rýchlym kontaktom.',
+        url: 'https://www.plechodesign-lakovna.sk/',
+        image: plechodesignLakovnaPreview,
+      },
+      {
+        title: 'AUTODANKO',
+        label: 'Autoservis, lakovňa a karosáreň',
+        text: 'Web pre autoservis v Šuranoch s riešením poistných udalostí, prehľadom služieb a galériou opráv.',
+        url: 'https://www.autodanko.sk/',
+        image: autodankoPreview,
+      },
+      {
+        title: 'Metod Hudák',
+        label: 'Autoservis a pneuservis',
+        text: 'Prehľadný web pre autoservis a pneuservis v Novej Ľubovni so službami, galériou a rýchlym kontaktom.',
+        url: 'https://www.metodhudak.sk/',
+        image: metodHudakPreview,
+      },
+      {
+        title: 'Autoservis JUKON',
+        label: 'Autoservis a pneuservis',
+        text: 'Web autoservisu v Košiciach-Krásnej s prehľadom služieb, cenníkom pneuservisu a emisných kontrol aj ukážkami prác z dielne.',
+        url: 'https://www.jukonservis.sk/',
+        image: jukonPreview,
+      },
+    ],
   },
   {
-    title: 'Skin Ritual by Valeri',
-    label: 'Kozmetický salón',
-    text: 'Web salónu v Čadci s ponukou ošetrení, cenníkom, fotografiami salónu a rezerváciou termínu cez Notino.',
-    url: 'https://www.skinritualbyvaleri.sk/',
-    image: skinRitualPreview,
+    id: 'preprava',
+    title: 'Odťah, preprava a prenájom dodávok',
+    works: [
+      {
+        title: 'Bocams servis Liptov',
+        label: 'Odťah a služby na Liptove',
+        text: 'Web firmy z Nižnej Boce spája odťah vozidiel, prepravu materiálu, stavebné práce aj prenájom mobilnej sauny.',
+        url: 'https://www.odtahovkaliptov.eu/',
+        image: bocamsPreview,
+      },
+      {
+        title: 'VanRent.sk',
+        label: 'Prenájom dodávok',
+        text: 'Na webe požičovne v Prievidzi si zákazník porovná dodávky IVECO Daily podľa veľkosti nákladného priestoru, výbavy a ceny.',
+        url: 'https://www.vanrent.sk/',
+        image: vanRentPreview,
+      },
+      {
+        title: 'Plecho Truck',
+        label: 'Odvoz odpadu',
+        text: 'Dynamický web pre odvoz odpadu a kontajnerové služby s jasnou ponukou, cenou a objednávkou.',
+        url: 'https://www.plechotruck.sk/',
+        image: plechotruckPreview,
+      },
+      {
+        title: 'Sťahovanie Galanta',
+        label: 'Sťahovanie a preprava',
+        text: 'Prehľadný web pre lokálnu sťahovaciu službu s jasnou ponukou, galériou a rýchlym kontaktom.',
+        url: 'https://www.stahovaniegalanta.sk/',
+        image: stahovanieGalantaPreview,
+      },
+    ],
   },
   {
-    title: 'Autoservis JUKON',
-    label: 'Autoservis a pneuservis',
-    text: 'Web autoservisu v Košiciach-Krásnej s prehľadom služieb, cenníkom pneuservisu a emisných kontrol aj ukážkami prác z dielne.',
-    url: 'https://www.jukonservis.sk/',
-    image: jukonPreview,
+    id: 'zemne-prace',
+    title: 'Zemné a výkopové práce',
+    works: [
+      {
+        title: 'ČERT – zemné a výkopové práce',
+        label: 'Zemné a výkopové práce',
+        text: 'Web firmy z Kamanovej s ponukou výkopových a búracích prác, prehľadom techniky a fotogalériou realizácií.',
+        url: 'https://www.certvykopoveprace.sk/',
+        image: certPreview,
+      },
+    ],
   },
   {
-    title: 'Cukráreň Palmar',
-    label: 'Cukrárenská výroba',
-    text: 'Web cukrárne v Hermanovciach s ponukou tort, zákuskov a candy barov, fotogalériou a informáciami k objednávke.',
-    url: 'https://www.cukrarenpalmar.sk/',
-    image: palmarPreview,
+    id: 'cistenie',
+    title: 'Čistenie exteriérov',
+    works: [
+      {
+        title: 'Richard Čistí',
+        label: 'Čistenie exteriérov',
+        text: 'Fotografie realizácií ukazujú výsledky čistenia fasád, dlažby, plotov a náhrobných kameňov. Zákazník môže požiadať o cenovú ponuku.',
+        url: 'https://www.richardcisti.sk/',
+        image: richardCistiPreview,
+      },
+    ],
   },
   {
-    title: 'Kozmetické štúdio Emily',
-    label: 'Kozmetické štúdio',
-    text: 'Web štúdia v Partizánskom s ponukou ošetrení, cenníkom a odkazom na rezerváciu termínu.',
-    url: 'https://www.emilykozmetickestudio.sk/',
-    image: emilyPreview,
+    id: 'tvorba-a-zelen',
+    title: 'Tvorivé štúdio a starostlivosť o zeleň',
+    works: [
+      {
+        title: 'Slnečnica',
+        label: 'Štúdio tvorivosti a zelene',
+        text: 'Web bratislavského štúdia s pozvánkami na tvorivé stretnutia a ponukou starostlivosti o firemnú zeleň.',
+        url: 'https://www.sunflower.sk/',
+        image: sunflowerPreview,
+      },
+    ],
   },
   {
-    title: 'Bocams servis Liptov',
-    label: 'Odťah a služby na Liptove',
-    text: 'Web firmy z Nižnej Boce spája odťah vozidiel, prepravu materiálu, stavebné práce aj prenájom mobilnej sauny.',
-    url: 'https://www.odtahovkaliptov.eu/',
-    image: bocamsPreview,
+    id: 'krasa-a-zdravie',
+    title: 'Krása a zdravie',
+    works: [
+      {
+        title: 'Aladiva',
+        label: 'Beauty, health, travel',
+        text: 'Prezentačný web pre značku zameranú na krásu, zdravie a zážitky.',
+        url: 'https://www.aladiva.sk',
+        image: aladivaPreview,
+      },
+      {
+        title: 'Therapy Center Alenn',
+        label: 'Terapie a regenerácia',
+        text: 'Pokojná prezentačná stránka pre terapeutické centrum so službami, kontaktom a jemnou atmosférou.',
+        url: 'https://www.therapycenteralenn.sk/',
+        image: therapyCenterAlennPreview,
+      },
+      {
+        title: 'Wanda Galan',
+        label: 'Permanentný make-up',
+        text: 'Elegantný web pre štúdio permanentného make-upu s prémiovým vizuálom, službami a rezerváciou termínu.',
+        url: 'https://www.wandagalan.sk/',
+        image: wandaGalanPreview,
+      },
+      {
+        title: 'Studio Lucia Modra',
+        label: 'Kozmetický salón',
+        text: 'Elegantný web pre lokálne štúdio krásy so službami, cenníkom a rezerváciou termínu.',
+        url: 'https://www.studioluciamodra.sk',
+        image: studioLuciaPreview,
+      },
+      {
+        title: 'Kozmetické štúdio Emily',
+        label: 'Kozmetické štúdio',
+        text: 'Web štúdia v Partizánskom s ponukou ošetrení, cenníkom a odkazom na rezerváciu termínu.',
+        url: 'https://www.emilykozmetickestudio.sk/',
+        image: emilyPreview,
+      },
+      {
+        title: 'Skin Ritual by Valeri',
+        label: 'Kozmetický salón',
+        text: 'Web salónu v Čadci s ponukou ošetrení, cenníkom, fotografiami salónu a rezerváciou termínu cez Notino.',
+        url: 'https://www.skinritualbyvaleri.sk/',
+        image: skinRitualPreview,
+      },
+    ],
   },
   {
-    title: 'VanRent.sk',
-    label: 'Prenájom dodávok',
-    text: 'Na webe požičovne v Prievidzi si zákazník porovná dodávky IVECO Daily podľa veľkosti nákladného priestoru, výbavy a ceny.',
-    url: 'https://www.vanrent.sk/',
-    image: vanRentPreview,
+    id: 'masaze-a-terapia',
+    title: 'Masáže a terapia',
+    works: [
+      {
+        title: 'PiT-Terapy',
+        label: 'Terapia a cvičenie',
+        text: 'Moderná prezentačná stránka pre terapiu a regeneráciu s výrazným vizuálom a rezerváciou.',
+        url: 'https://www.pit-terapy.sk/',
+        image: pitTerapyPreview,
+      },
+      {
+        title: 'Masáže u Bei',
+        label: 'Masáže a terapie',
+        text: 'Pokojný web pre masérske služby v Senci s ponukou terapií, cenníkom, recenziami a jednoduchým kontaktom.',
+        url: 'https://www.masazeubei.sk/',
+        image: masazeUBeiPreview,
+      },
+    ],
   },
   {
-    title: 'Richard Čistí',
-    label: 'Čistenie exteriérov',
-    text: 'Fotografie realizácií ukazujú výsledky čistenia fasád, dlažby, plotov a náhrobných kameňov. Zákazník môže požiadať o cenovú ponuku.',
-    url: 'https://www.richardcisti.sk/',
-    image: richardCistiPreview,
+    id: 'dalsie-realizacie',
+    title: 'Ďalšie realizácie',
+    works: [
+      {
+        title: 'Adis Tattoo Art',
+        label: 'Tattoo & piercing',
+        text: 'Výrazná stránka pre tattoo štúdio s galériou, službami a jednoduchou cestou k dohodnutiu termínu.',
+        url: 'https://www.adistattoo.sk/',
+        image: adisTattooPreview,
+      },
+      {
+        title: 'Krmivá Joki',
+        label: 'Chovateľské potreby',
+        text: 'Prívetivý web pre lokálnu predajňu krmív a chovateľských potrieb s ponukou, kontaktom a hodnoteniami.',
+        url: 'https://www.krmivajoki.sk/',
+        image: krmivaJokiPreview,
+      },
+      {
+        title: 'Velmaat',
+        label: 'Účtovníctvo',
+        text: 'Profesionálny web pre účtovnícke služby s dôrazom na dôveru, služby a nezáväznú konzultáciu.',
+        url: 'https://www.velmaat.sk/',
+        image: velmaatPreview,
+      },
+      {
+        title: 'Žumpy Podpoľanie',
+        label: 'Vývoz odpadových vôd',
+        text: 'Výrazná stránka pre vývoz žúmp a septikov v regióne Podpoľania s cenníkom, galériou a rýchlym telefonátom.',
+        url: 'https://www.zumpypodpolanie.sk/',
+        image: zumpyPodpolaniePreview,
+      },
+    ],
   },
   {
-    title: 'Slnečnica',
-    label: 'Štúdio tvorivosti a zelene',
-    text: 'Web bratislavského štúdia s pozvánkami na tvorivé stretnutia a ponukou starostlivosti o firemnú zeleň.',
-    url: 'https://www.sunflower.sk/',
-    image: sunflowerPreview,
-  },
-  {
-    title: 'BK Profilak',
-    label: 'Autolakovňa a autoservis',
-    text: 'Prezentačný web pre autolakovňu a autoservis v Prakovciach s ponukou služieb, ukážkami prác a kontaktom.',
-    url: 'https://www.bkprofilak.sk/',
-    image: bkProfilakPreview,
-  },
-  {
-    title: 'AZ Cars Electronic',
-    label: 'Autoelektrika a chiptuning',
-    text: 'Web pre autoelektriku a chiptuning v Banskej Bystrici s prehľadom služieb, realizáciami a dohodnutím termínu.',
-    url: 'https://www.az-cars.sk/',
-    image: azCarsPreview,
-  },
-  {
-    title: 'Aladiva',
-    label: 'Beauty, health, travel',
-    text: 'Prezentačný web pre značku zameranú na krásu, zdravie a zážitky.',
-    url: 'https://www.aladiva.sk',
-    image: aladivaPreview,
-  },
-  {
-    title: 'Studio Lucia Modra',
-    label: 'Kozmetický salón',
-    text: 'Elegantný web pre lokálne štúdio krásy so službami, cenníkom a rezerváciou termínu.',
-    url: 'https://www.studioluciamodra.sk',
-    image: studioLuciaPreview,
-  },
-  {
-    title: 'Sťahovanie Galanta',
-    label: 'Sťahovanie a preprava',
-    text: 'Prehľadný web pre lokálnu sťahovaciu službu s jasnou ponukou, galériou a rýchlym kontaktom.',
-    url: 'https://www.stahovaniegalanta.sk/',
-    image: stahovanieGalantaPreview,
-  },
-  {
-    title: 'PiT-Terapy',
-    label: 'Terapia a cvičenie',
-    text: 'Moderná prezentačná stránka pre terapiu a regeneráciu s výrazným vizuálom a rezerváciou.',
-    url: 'https://www.pit-terapy.sk/',
-    image: pitTerapyPreview,
-  },
-  {
-    title: 'Plecho Truck',
-    label: 'Odvoz odpadu',
-    text: 'Dynamický web pre odvoz odpadu a kontajnerové služby s jasnou ponukou, cenou a objednávkou.',
-    url: 'https://www.plechotruck.sk/',
-    image: plechotruckPreview,
-  },
-  {
-    title: 'PlechoDesign lakovňa',
-    label: 'Autolakovňa',
-    text: 'Prezentačný web pre autolakovňu s výrazným vizuálom, službami, realizáciami a rýchlym kontaktom.',
-    url: 'https://www.plechodesign-lakovna.sk/',
-    image: plechodesignLakovnaPreview,
-  },
-  {
-    title: 'Velmaat',
-    label: 'Účtovníctvo',
-    text: 'Profesionálny web pre účtovnícke služby s dôrazom na dôveru, služby a nezáväznú konzultáciu.',
-    url: 'https://www.velmaat.sk/',
-    image: velmaatPreview,
-  },
-  {
-    title: 'Krmivá Joki',
-    label: 'Chovateľské potreby',
-    text: 'Prívetivý web pre lokálnu predajňu krmív a chovateľských potrieb s ponukou, kontaktom a hodnoteniami.',
-    url: 'https://www.krmivajoki.sk/',
-    image: krmivaJokiPreview,
-  },
-  {
-    title: 'Adis Tattoo Art',
-    label: 'Tattoo & piercing',
-    text: 'Výrazná stránka pre tattoo štúdio s galériou, službami a jednoduchou cestou k dohodnutiu termínu.',
-    url: 'https://www.adistattoo.sk/',
-    image: adisTattooPreview,
-  },
-  {
-    title: 'Wanda Galan',
-    label: 'Permanentný make-up',
-    text: 'Elegantný web pre štúdio permanentného make-upu s prémiovým vizuálom, službami a rezerváciou termínu.',
-    url: 'https://www.wandagalan.sk/',
-    image: wandaGalanPreview,
-  },
-  {
-    title: 'Masáže u Bei',
-    label: 'Masáže a terapie',
-    text: 'Pokojný web pre masérske služby v Senci s ponukou terapií, cenníkom, recenziami a jednoduchým kontaktom.',
-    url: 'https://www.masazeubei.sk/',
-    image: masazeUBeiPreview,
-  },
-  {
-    title: 'Žumpy Podpoľanie',
-    label: 'Vývoz odpadových vôd',
-    text: 'Výrazná stránka pre vývoz žúmp a septikov v regióne Podpoľania s cenníkom, galériou a rýchlym telefonátom.',
-    url: 'https://www.zumpypodpolanie.sk/',
-    image: zumpyPodpolaniePreview,
-  },
-  {
-    title: 'Original Cars',
-    label: 'Autoservis',
-    text: 'Moderný web pre autoservis v Partizánskom so službami, kontaktom, adresou a rýchlym telefonátom.',
-    url: 'https://www.originalcars.sk/',
-    image: originalCarsPreview,
-  },
-  {
-    title: 'Pneulob',
-    label: 'Pneuservis',
-    text: 'Prehľadná stránka pre pneuservis a predaj pneumatík s jasnou ponukou, kontaktom a lokálnymi informáciami.',
-    url: 'https://www.pneulob.sk/',
-    image: pneulobPreview,
-  },
-  {
-    title: 'Therapy Center Alenn',
-    label: 'Terapie a regenerácia',
-    text: 'Pokojná prezentačná stránka pre terapeutické centrum so službami, kontaktom a jemnou atmosférou.',
-    url: 'https://www.therapycenteralenn.sk/',
-    image: therapyCenterAlennPreview,
-  },
-  {
-    title: 'AUTODANKO',
-    label: 'Autoservis, lakovňa a karosáreň',
-    text: 'Web pre autoservis v Šuranoch s riešením poistných udalostí, prehľadom služieb a galériou opráv.',
-    url: 'https://www.autodanko.sk/',
-    image: autodankoPreview,
-  },
-  {
-    title: 'Metod Hudák',
-    label: 'Autoservis a pneuservis',
-    text: 'Prehľadný web pre autoservis a pneuservis v Novej Ľubovni so službami, galériou a rýchlym kontaktom.',
-    url: 'https://www.metodhudak.sk/',
-    image: metodHudakPreview,
+    id: 'cukrarne-a-obcerstvenie',
+    title: 'Cukrárne a občerstvenie',
+    works: [
+      {
+        title: 'Cukráreň Palmar',
+        label: 'Cukrárenská výroba',
+        text: 'Web cukrárne v Hermanovciach s ponukou tort, zákuskov a candy barov, fotogalériou a informáciami k objednávke.',
+        url: 'https://www.cukrarenpalmar.sk/',
+        image: palmarPreview,
+      },
+      {
+        title: 'Rýchle občerstvenie',
+        label: 'Ukážkový návrh · street food',
+        text: 'Návrh webu fiktívneho občerstvenia s ponukou jedál, galériou a prepínaním farebného štýlu.',
+        url: 'https://rychle-obcerstvenie-ukazka.vercel.app/',
+        image: obcerstveniePreview,
+      },
+      {
+        title: 'Modrá Gorgona',
+        label: 'Ukážkový návrh · reštaurácia',
+        text: 'Návrh webu fiktívnej reštaurácie s jedálnym lístkom, košíkom a ukážkou online objednávania.',
+        url: 'https://www.modragorgona.site/',
+        image: modraGorgonaPreview,
+      },
+    ],
   },
 ];
 
@@ -436,48 +506,61 @@ function App() {
           </div>
           <div className="works-showcase" aria-labelledby="realizovane-weby-title">
             <div className="section-heading works-heading">
-              <div className="section-kicker">Realizované weby</div>
-              <h2 id="realizovane-weby-title">Ukážky mojich prác</h2>
+              <div className="section-kicker">Portfólio</div>
+              <h2 id="realizovane-weby-title">Ukážky mojej práce podľa zamerania</h2>
               <p>
-                Toto sú reálne weby, ktoré si môžete otvoriť a pozrieť ako živé
-                referencie.
+                Hotové weby aj ukážkové návrhy prehľadne podľa oblasti podnikania.
+                Každú ukážku si môžete otvoriť a prezrieť.
               </p>
             </div>
-            <div className="work-grid">
-              {realWorks.map((work) => (
-                <article className="work-card" key={work.title}>
-                  <a
-                    className="work-preview"
-                    href={work.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`Otvoriť web ${work.title}`}
-                  >
-                    <img src={work.image} alt={`Náhľad webu ${work.title}`} />
-                  </a>
-                  <div className="work-content">
-                    <span>{work.label}</span>
-                    <h3>{work.title}</h3>
-                    <p>{work.text}</p>
-                    <a
-                      className="text-link"
-                      href={work.url}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Otvoriť web
-                    </a>
-                    <a
-                      className="work-credit"
-                      href={hrdinaWebUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Otvoriť stránku Hrdina Web v novej karte"
-                    >
-                      Vytvorené pomocou Hrdina Web
-                    </a>
+            <div className="work-groups">
+              {workGroups.map((group) => (
+                <section
+                  className="work-group"
+                  key={group.id}
+                  aria-labelledby={`work-group-${group.id}`}
+                >
+                  <h3 className="work-group-title" id={`work-group-${group.id}`}>
+                    {group.title}
+                  </h3>
+                  <div className="work-grid">
+                    {group.works.map((work) => (
+                      <article className="work-card" key={work.url}>
+                        <a
+                          className="work-preview"
+                          href={work.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`Otvoriť web ${work.title}`}
+                        >
+                          <img src={work.image} alt={`Náhľad webu ${work.title}`} />
+                        </a>
+                        <div className="work-content">
+                          <span>{work.label}</span>
+                          <h4>{work.title}</h4>
+                          <p>{work.text}</p>
+                          <a
+                            className="text-link"
+                            href={work.url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Otvoriť web
+                          </a>
+                          <a
+                            className="work-credit"
+                            href={hrdinaWebUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Otvoriť stránku Hrdina Web v novej karte"
+                          >
+                            Vytvorené pomocou Hrdina Web
+                          </a>
+                        </div>
+                      </article>
+                    ))}
                   </div>
-                </article>
+                </section>
               ))}
             </div>
           </div>
