@@ -1,3 +1,5 @@
+import midanoPreview from './assets/work-midano.jpg';
+import ivanaBeautyPreview from './assets/work-ivana-beauty.jpg';
 import obcerstveniePreview from './assets/work-rychle-obcerstvenie.jpg';
 import modraGorgonaPreview from './assets/work-modra-gorgona.jpg';
 import marianPortrait from './assets/marian-portrait-preview-v2.jpg';
@@ -157,6 +159,13 @@ const workGroups = [
         url: 'https://www.jukonservis.sk/',
         image: jukonPreview,
       },
+      {
+        title: 'MIDANO',
+        label: 'Autoservis a odťahová služba',
+        text: 'Web autoservisu v Spišskej Novej Vsi s nonstop odťahom, prehľadom služieb, cenníkom a fotografiami z dielne aj prepravy.',
+        url: 'https://www.midano.sk/',
+        image: midanoPreview,
+      },
     ],
   },
   {
@@ -277,6 +286,13 @@ const workGroups = [
         text: 'Web salónu v Čadci s ponukou ošetrení, cenníkom, fotografiami salónu a rezerváciou termínu cez Notino.',
         url: 'https://www.skinritualbyvaleri.sk/',
         image: skinRitualPreview,
+      },
+      {
+        title: 'Ivana Beauty Studio',
+        label: 'Kozmetický salón',
+        text: 'Web kozmetického salónu v Michalovciach s ponukou ošetrení, cenníkom, fotogalériou a telefonickým objednaním.',
+        url: 'https://www.ivanabeauty.sk/',
+        image: ivanaBeautyPreview,
       },
     ],
   },
